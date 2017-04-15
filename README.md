@@ -1,2 +1,29 @@
 # PRG04-Week2-oefening2
-Pixel Aquarium Typescript
+
+## Pixel Aquarium Typescript
+
+### OPDRACHT
+
+- Lees de onderstaande installatie tips door en zorg dat je aan de slag kan met Visual Studio Code en Typescript
+- In het project vind je een **main.ts** class. Hierin staat code die een vis en een bubble op het scherm toont. Verplaats deze code naar de lege **fish.ts** en **bubble.ts** classes.
+- In **main.ts** maak je een instance van de fish en de bubble. Kijk of deze op het scherm verschijnen
+- Als dat lukt, maak dan in **main.ts** een loop die honderd visjes en bubbles toont
+- De visjes hebben een random kleur en positie
+- De bubbles hebben een random horizontale positie
+
+### INSTALLATIE
+
+- Installeer Typescript en Visual Studio Code [installatie handleiding](https://github.com/HR-CMGT/PRG04-Week0)
+
+### OPZET PROJECT
+
+Dit project bevat een **dev** en een **dist** folder. 
+
+- In de **dev** folder staat het typescript code project. Dit is de map waarin je je project programmeert. Je compileert deze code naar Javascript.
+- In de **dist** folder staat het eindproject zoals dat op een server geplaatst wordt. In de **js** map vind je de javascript code die door de Typescript compiler wordt gegenereerd.
+
+### COMPILEREN
+
+In het **tsconfig.json** bestand vind je de instellingen voor het compileren naar Javascript. Hierin kan je zien dat alle losse .ts bestanden worden samengevoegd in het **dist/js/main.js** bestand. Ook kan je hier aangeven naar welke versie van javascript je wil compileren.
+
+In **Visual Studio Code** compileer je naar Javascript met de shortcut: CMD+SHIFT+B / CTRL+SHIFT+B. De actie die door deze shortcut wordt uitgevoerd staat in het bestand **tasks.json**. Deze task bevat een **file watcher**. Dit zorgt ervoor dat je niet telkens op CMD+SHIFT+B hoeft te drukken om te compileren. Dit gaat automatisch zodra een typescript bestand wordt gewijzigd.
