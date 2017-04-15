@@ -24,6 +24,6 @@ Dit project bevat een **dev** en een **dist** folder.
 
 ### COMPILEREN
 
-In het **tsconfig.json** bestand vind je de instellingen voor het compileren naar Javascript. Hierin kan je zien dat alle losse .ts bestanden worden samengevoegd in het **dist/js/main.js** bestand. Ook kan je hier aangeven naar welke versie van javascript je wil compileren.
+In het **tsconfig.json** bestand vind je de instellingen voor het compileren naar Javascript. Hierin kan je zien dat alle losse .ts bestanden worden samengevoegd in het **dist/js/main.js** bestand.
 
-In **Visual Studio Code** compileer je naar Javascript met de shortcut: CMD+SHIFT+B / CTRL+SHIFT+B. De actie die door deze shortcut wordt uitgevoerd staat in het bestand **tasks.json**. Deze task bevat een **file watcher**. Dit zorgt ervoor dat je niet telkens op CMD+SHIFT+B hoeft te drukken om te compileren. Dit gaat automatisch zodra een typescript bestand wordt gewijzigd.
+In **Visual Studio Code** compileer je naar Javascript met de shortcut: CMD+SHIFT+B / CTRL+SHIFT+B. Deze task bevat een **file watcher** zodat je niet telkens op CMD+SHIFT+B hoeft te drukken om te compileren.
