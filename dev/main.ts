@@ -4,24 +4,27 @@
 class Game {
     
     constructor() {
-        
         // fish
         let f = document.createElement("fish");
         document.body.appendChild(f);
 
-        f.style.left = "100px";
-        f.style.top = "100px";
+        let fishx:number = Math.random() * window.innerWidth;
+        let fishy:number = Math.random() * window.innerHeight;
 
+        // we gebruiken hier left top omdat translate al in de animatie wordt gebruikt                
+        f.style.left = fishx + "px";
+        f.style.top = fishy + "px";
+
+        // de kleur moet random worden
         f.style.webkitFilter = "hue-rotate(45deg)";
         f.style.filter = "hue-rotate(45deg)";
-
 
         // bubble
         let b = document.createElement("bubble");
         document.body.appendChild(b);
                         
-        b.style.left = "250px";
-        b.style.top = "350px";
+        let startx:number = Math.random() * window.innerWidth;
+        b.style.left = startx + "px";
     }
 } 
 

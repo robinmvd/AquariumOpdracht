@@ -12,14 +12,16 @@ var Game = (function () {
     function Game() {
         var f = document.createElement("fish");
         document.body.appendChild(f);
-        f.style.left = "100px";
-        f.style.top = "100px";
+        var fishx = Math.random() * window.innerWidth;
+        var fishy = Math.random() * window.innerHeight;
+        f.style.left = fishx + "px";
+        f.style.top = fishy + "px";
         f.style.webkitFilter = "hue-rotate(45deg)";
         f.style.filter = "hue-rotate(45deg)";
         var b = document.createElement("bubble");
         document.body.appendChild(b);
-        b.style.left = "250px";
-        b.style.top = "350px";
+        var startx = Math.random() * window.innerWidth;
+        b.style.left = startx + "px";
     }
     return Game;
 }());
