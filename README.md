@@ -11,6 +11,8 @@
 - De visjes hebben een random kleur en positie
 - De bubbles hebben een random horizontale positie
 
+![UML](uml.png?raw=true "UML")
+
 ### INSTALLATIE
 
 - Installeer Typescript en Visual Studio Code [installatie handleiding](https://github.com/HR-CMGT/PRG04-Week0)
