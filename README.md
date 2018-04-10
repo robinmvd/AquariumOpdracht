@@ -14,10 +14,10 @@
 
 - Open de oefening van week 1
 - Verplaats de code die één Vis en één Bubble tekent naar de juiste plek in dit project
-- De visjes hebben een random kleur en positie
-- De bubbles hebben een random horizontale positie
+- De vis heeft een random kleur en positie
+- De bubble heeft een random horizontale positie
 
 ### Opdracht
 
 - Lees de documentatie van setTimeout op MDN
-- Maak dan in **main.ts** een functie die drie keer per seconde een vis en een bubble toevoegt, totdat er 100 zijn
+- Schrijf in **main.ts** code die drie keer per seconde een vis en een bubble toevoegt, totdat er 100 zijn
