@@ -1,7 +1,14 @@
 class Bubble {
-            
+
+    div:HTMLElement
+
     constructor() {
-        console.log("ik ben een bubble")
-        // PLAATS HIER DE CODE DIE EEN BUBBLE IN DE DOM ZET
+        console.log("Blub... blub...")
+
+        this.popBubble()
+    }
+
+    popBubble() {
+        console.log("Plop!")
     }
 }

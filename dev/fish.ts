@@ -1,8 +1,14 @@
 class Fish {
-            
+
+    div: HTMLElement
+    
     constructor() {
-        console.log("ik ben een fish")
-        // PLAATS HIER DE CODE DIE EEN FISH IN DE DOM ZET
+        console.log("Fish was created!")
+
+        this.killFish()
     }
- 
+
+    killFish(){
+        console.log("Aargh!")
+    }
 }

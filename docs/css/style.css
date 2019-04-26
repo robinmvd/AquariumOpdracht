@@ -16,44 +16,22 @@ body * {
 fish {
     background-image: url(../images/fish.png);
     width:130px; height: 110px;
-
-    transform-origin: 700 600;
-    
-    /* kleur variatie met css */
-    -webkit-filter: hue-rotate(90deg);
     filter: hue-rotate(90deg);
-    
-    animation: fishanimation 4s ease-in-out infinite alternate;
+    cursor: pointer;
 }
 
 bubble {
     background-image: url(../images/bubble.png);
     width:55px; height: 55px;
-    animation: bubbleup 3s linear infinite;
+    cursor: pointer;
 }
 
 background {
 	background-image: url(../images/water.jpg);
-  width:100%; height: 100%;
-  background-size: cover;
+    width:100%; height: 100%;
+    background-size: cover;
 }
 
-@keyframes fishanimation {
-  0% {
-    transform: translateY(20px);
-  }
-  
-  100% {
-    transform: translateY(80px);
-  }
-}
-
-@keyframes bubbleup {
-  0% {
-    transform: translateY(100vh);
-  }
-  
-  100% {
-    transform: translateY(0vh);
-  }
+.dead {
+    background-image: url(../images/bones.png);
 }
