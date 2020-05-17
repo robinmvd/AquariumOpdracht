@@ -20,6 +20,12 @@ fish {
     cursor: pointer;
 }
 
+pineapple {
+    background-image: url(../images/pineapple.png);
+    width:200px; height:200px;
+    cursor: pointer;
+}
+
 .dead {
     background-image: url(../images/bones.png);
 }
